@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{
+    background-color: rgb(238, 239, 226)
+}
+
+section{
+    background-image: url("/img/____.png");
+    height:100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+   
+   
+}
+h1{
+    
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: 35%;
+    left:10%;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+span{
+font-size: 2rem;
+}
+
+
+button{
+    position:absolute;
+    top: 70%;
+    left: 10%;
+    width: 15vw;
+    height:4vh;
+    border-radius: 20px;
+    background-color: rgb(245, 169, 65);
+    color:rgb(37, 26, 10)
+}
